@@ -1,0 +1,330 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{cuestionpublica_entrega_2019}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=48ce7b3c97e3aff62508d8869afc58ff}{%
+           family={{Cuestión Pública}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{48ce7b3c97e3aff62508d8869afc58ff}
+      \strng{fullhash}{48ce7b3c97e3aff62508d8869afc58ff}
+      \strng{bibnamehash}{48ce7b3c97e3aff62508d8869afc58ff}
+      \strng{authorbibnamehash}{48ce7b3c97e3aff62508d8869afc58ff}
+      \strng{authornamehash}{48ce7b3c97e3aff62508d8869afc58ff}
+      \strng{authorfullhash}{48ce7b3c97e3aff62508d8869afc58ff}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Online}
+      \field{note}{Imagen obtenida de {Cuestión Pública}}
+      \field{title}{Entrega de mercados en Juan José}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://cuestionpublica.com/wp-content/uploads/2019/09/8.Entrega-mercados-Juan-Jose%CC%81-4_Cre%CC%81dito-Bu%CC%88ncker.jpg
+      \endverb
+      \verb{url}
+      \verb https://cuestionpublica.com/wp-content/uploads/2019/09/8.Entrega-mercados-Juan-Jose%CC%81-4_Cre%CC%81dito-Bu%CC%88ncker.jpg
+      \endverb
+    \endentry
+    \entry{culturarecreacion_campesinos_2025}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ec00700aac7c1ca92cee8878c2656adb}{%
+           family={{Cultura, Recreación y Deporte}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{ec00700aac7c1ca92cee8878c2656adb}
+      \strng{fullhash}{ec00700aac7c1ca92cee8878c2656adb}
+      \strng{bibnamehash}{ec00700aac7c1ca92cee8878c2656adb}
+      \strng{authorbibnamehash}{ec00700aac7c1ca92cee8878c2656adb}
+      \strng{authornamehash}{ec00700aac7c1ca92cee8878c2656adb}
+      \strng{authorfullhash}{ec00700aac7c1ca92cee8878c2656adb}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Online}
+      \field{note}{Imagen obtenida de {Cultura, Recreación y Deporte}}
+      \field{title}{Campesinos en Colombia}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.culturarecreacionydeporte.gov.co/sites/default/files/images/campesinos.jpg
+      \endverb
+      \verb{url}
+      \verb https://www.culturarecreacionydeporte.gov.co/sites/default/files/images/campesinos.jpg
+      \endverb
+    \endentry
+    \entry{elempleo_campesinos_2023}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a4f9f154769a9cbc5dd5597d067e701d}{%
+           family={{elempleo.com}},
+           familyi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{a4f9f154769a9cbc5dd5597d067e701d}
+      \strng{fullhash}{a4f9f154769a9cbc5dd5597d067e701d}
+      \strng{bibnamehash}{a4f9f154769a9cbc5dd5597d067e701d}
+      \strng{authorbibnamehash}{a4f9f154769a9cbc5dd5597d067e701d}
+      \strng{authornamehash}{a4f9f154769a9cbc5dd5597d067e701d}
+      \strng{authorfullhash}{a4f9f154769a9cbc5dd5597d067e701d}
+      \field{sortinit}{e}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Online}
+      \field{note}{Imagen obtenida de {elempleo.com}}
+      \field{title}{Campesinos en Colombia}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://cmsresources.elempleo.com/co/assets/backend/styles/770x513/public/2023-06/campesinos%20(1).jpg
+      \endverb
+      \verb{url}
+      \verb https://cmsresources.elempleo.com/co/assets/backend/styles/770x513/public/2023-06/campesinos%20(1).jpg
+      \endverb
+    \endentry
+    \entry{gutierrez2012teoria}{article}{}
+      \name{author}{1}{}{%
+        {{hash=07e9f14625ead27a249bea5b38ea218a}{%
+           family={Gutiérrez\bibnamedelima Bedoya},
+           familyi={G\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Diego\bibnamedelima Felipe},
+           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{07e9f14625ead27a249bea5b38ea218a}
+      \strng{fullhash}{07e9f14625ead27a249bea5b38ea218a}
+      \strng{bibnamehash}{07e9f14625ead27a249bea5b38ea218a}
+      \strng{authorbibnamehash}{07e9f14625ead27a249bea5b38ea218a}
+      \strng{authornamehash}{07e9f14625ead27a249bea5b38ea218a}
+      \strng{authorfullhash}{07e9f14625ead27a249bea5b38ea218a}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Econografos Escuela de Economía No}
+      \field{title}{Teoría de la Migración Colectiva como Explicación al Desplazamiento Forzado en Colombia (Collective Migration Theory as an Explanation of the Forced Displacement by Conflict in Colombia)}
+      \field{year}{2012}
+    \endentry
+    \entry{infobae}{online}{}
+      \name{author}{1}{}{%
+        {{hash=67c02f59c769ce0df2c15d009aeb31ce}{%
+           family={{Infobae}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{67c02f59c769ce0df2c15d009aeb31ce}
+      \strng{fullhash}{67c02f59c769ce0df2c15d009aeb31ce}
+      \strng{bibnamehash}{67c02f59c769ce0df2c15d009aeb31ce}
+      \strng{authorbibnamehash}{67c02f59c769ce0df2c15d009aeb31ce}
+      \strng{authornamehash}{67c02f59c769ce0df2c15d009aeb31ce}
+      \strng{authorfullhash}{67c02f59c769ce0df2c15d009aeb31ce}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{127 familias desplazadas por el conflicto retornan a sus territorios}
+      \field{urlday}{28}
+      \field{urlmonth}{2}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.infobae.com/colombia/2024/06/06/127-familias-desplazadas-por-el-conflicto-retornan-a-sus-territorios/
+      \endverb
+      \verb{url}
+      \verb https://www.infobae.com/colombia/2024/06/06/127-familias-desplazadas-por-el-conflicto-retornan-a-sus-territorios/
+      \endverb
+    \endentry
+    \entry{renteria2023dinamica}{article}{}
+      \name{author}{2}{}{%
+        {{hash=bcd5bed54906817de279a7908d452512}{%
+           family={Rentería\bibnamedelima Ramos},
+           familyi={R\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Rafael\bibnamedelima Ricardo},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=873cb781d7853d90a55452b91c75041f}{%
+           family={Vitale\bibnamedelima Alfonso},
+           familyi={V\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Alicia\bibnamedelima María},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {El Colegio de México AC}%
+      }
+      \strng{namehash}{6cd5cb7302a6c4432e697267e1e8dded}
+      \strng{fullhash}{6cd5cb7302a6c4432e697267e1e8dded}
+      \strng{bibnamehash}{6cd5cb7302a6c4432e697267e1e8dded}
+      \strng{authorbibnamehash}{6cd5cb7302a6c4432e697267e1e8dded}
+      \strng{authornamehash}{6cd5cb7302a6c4432e697267e1e8dded}
+      \strng{authorfullhash}{6cd5cb7302a6c4432e697267e1e8dded}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Estudios demográficos y urbanos}
+      \field{number}{2}
+      \field{title}{Dinámica migratoria en Risaralda, Colombia: modelo basado en agentes}
+      \field{volume}{38}
+      \field{year}{2023}
+      \field{pages}{415\bibrangedash 460}
+      \range{pages}{46}
+    \endentry
+    \entry{unidadvictimas_observatorio_2023}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d3f181e11e5f4a94495be3255703769a}{%
+           family={{Unidad para las Víctimas}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{d3f181e11e5f4a94495be3255703769a}
+      \strng{fullhash}{d3f181e11e5f4a94495be3255703769a}
+      \strng{bibnamehash}{d3f181e11e5f4a94495be3255703769a}
+      \strng{authorbibnamehash}{d3f181e11e5f4a94495be3255703769a}
+      \strng{authornamehash}{d3f181e11e5f4a94495be3255703769a}
+      \strng{authorfullhash}{d3f181e11e5f4a94495be3255703769a}
+      \field{extraname}{1}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Online}
+      \field{note}{Imagen obtenida de {Unidad para las Víctimas}}
+      \field{title}{Observatorio de Víctimas en Colombia}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.unidadvictimas.gov.co/wp-content/uploads/2023/05/observatorio_0.jpg
+      \endverb
+      \verb{url}
+      \verb https://www.unidadvictimas.gov.co/wp-content/uploads/2023/05/observatorio_0.jpg
+      \endverb
+    \endentry
+    \entry{unidadvictimas_ruv_2025}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d3f181e11e5f4a94495be3255703769a}{%
+           family={{Unidad para las Víctimas}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{d3f181e11e5f4a94495be3255703769a}
+      \strng{fullhash}{d3f181e11e5f4a94495be3255703769a}
+      \strng{bibnamehash}{d3f181e11e5f4a94495be3255703769a}
+      \strng{authorbibnamehash}{d3f181e11e5f4a94495be3255703769a}
+      \strng{authornamehash}{d3f181e11e5f4a94495be3255703769a}
+      \strng{authorfullhash}{d3f181e11e5f4a94495be3255703769a}
+      \field{extraname}{2}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Registro Único de Víctimas (RUV)}
+      \field{urlday}{28}
+      \field{urlmonth}{2}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.unidadvictimas.gov.co/registro-unico-de-victimas-ruv/
+      \endverb
+      \verb{url}
+      \verb https://www.unidadvictimas.gov.co/registro-unico-de-victimas-ruv/
+      \endverb
+    \endentry
+    \entry{vozdeamerica_desplazamiento_2024}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=3e660f10c3d2a3a3b4eab905f94f2d35}{%
+           family={{Voz de América}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{3e660f10c3d2a3a3b4eab905f94f2d35}
+      \strng{fullhash}{3e660f10c3d2a3a3b4eab905f94f2d35}
+      \strng{bibnamehash}{3e660f10c3d2a3a3b4eab905f94f2d35}
+      \strng{authorbibnamehash}{3e660f10c3d2a3a3b4eab905f94f2d35}
+      \strng{authornamehash}{3e660f10c3d2a3a3b4eab905f94f2d35}
+      \strng{authorfullhash}{3e660f10c3d2a3a3b4eab905f94f2d35}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Online}
+      \field{note}{Imagen obtenida de {Voz de América}}
+      \field{title}{Grupos armados en Colombia y el desplazamiento forzado}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://gdb.voanews.com/01000000-c0a8-0242-1dfd-08dbec6fc1c4_w1080_h608_s.jpg
+      \endverb
+      \verb{url}
+      \verb https://gdb.voanews.com/01000000-c0a8-0242-1dfd-08dbec6fc1c4_w1080_h608_s.jpg
+      \endverb
+    \endentry
+    \entry{eswiki:165573820}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Internet; descargado 21-febrero-2025]}
+      \field{title}{Bogotá --- Wikipedia{,} La enciclopedia libre}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://es.wikipedia.org/w/index.php?title=Bogot%C3%A1&oldid=165573820
+      \endverb
+      \verb{url}
+      \verb https://es.wikipedia.org/w/index.php?title=Bogot%C3%A1&oldid=165573820
+      \endverb
+    \endentry
+    \entry{eswiki:165709323}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Internet; descargado 26-febrero-2025]}
+      \field{title}{Demografía de Colombia --- Wikipedia{,} La enciclopedia libre}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://es.wikipedia.org/w/index.php?title=Demograf%C3%ADa_de_Colombia&oldid=165709323
+      \endverb
+      \verb{url}
+      \verb https://es.wikipedia.org/w/index.php?title=Demograf%C3%ADa_de_Colombia&oldid=165709323
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
