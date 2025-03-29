@@ -30,6 +30,7 @@ to go
   tick
 end
 
+
 to plot-money
   set-current-plot "Total Money of Campesinos"  ; Ensure this matches the Interface plot name
   plot sum [total_money] of campesinos  ; Plot the total money over time
@@ -65,8 +66,8 @@ ticks
 PLOT
 746
 86
-946
-236
+1532
+605
 Total Money of Campesinos
 Time
 Total Money

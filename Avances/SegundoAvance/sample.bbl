@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
+% $ biblatex bbl format version 3.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,311 +18,249 @@
 
 
 \refsection{0}
-  \datalist[entry]{nty/global//global/global}
-    \entry{cuestionpublica_entrega_2019}{misc}{}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{EVA2020}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=48ce7b3c97e3aff62508d8869afc58ff}{%
-           family={{Cuestión Pública}},
-           familyi={C\bibinitperiod}}}%
+        {{hash=f37ab67ecea02503d2ef49b7b56bf0fd}{%
+           family={{Departamento Nacional de Planeación de Colombia}},
+           familyi={D\bibinitperiod}}}%
       }
-      \strng{namehash}{48ce7b3c97e3aff62508d8869afc58ff}
-      \strng{fullhash}{48ce7b3c97e3aff62508d8869afc58ff}
-      \strng{bibnamehash}{48ce7b3c97e3aff62508d8869afc58ff}
-      \strng{authorbibnamehash}{48ce7b3c97e3aff62508d8869afc58ff}
-      \strng{authornamehash}{48ce7b3c97e3aff62508d8869afc58ff}
-      \strng{authorfullhash}{48ce7b3c97e3aff62508d8869afc58ff}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \strng{namehash}{f37ab67ecea02503d2ef49b7b56bf0fd}
+      \strng{fullhash}{f37ab67ecea02503d2ef49b7b56bf0fd}
+      \strng{fullhashraw}{f37ab67ecea02503d2ef49b7b56bf0fd}
+      \strng{bibnamehash}{f37ab67ecea02503d2ef49b7b56bf0fd}
+      \strng{authorbibnamehash}{f37ab67ecea02503d2ef49b7b56bf0fd}
+      \strng{authornamehash}{f37ab67ecea02503d2ef49b7b56bf0fd}
+      \strng{authorfullhash}{f37ab67ecea02503d2ef49b7b56bf0fd}
+      \strng{authorfullhashraw}{f37ab67ecea02503d2ef49b7b56bf0fd}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{Online}
-      \field{note}{Imagen obtenida de {Cuestión Pública}}
-      \field{title}{Entrega de mercados en Juan José}
-      \field{year}{2019}
+      \field{title}{{Evaluación de Valoración Ambiental (EVA) 2020}}
+      \field{year}{2020}
       \verb{urlraw}
-      \verb https://cuestionpublica.com/wp-content/uploads/2019/09/8.Entrega-mercados-Juan-Jose%CC%81-4_Cre%CC%81dito-Bu%CC%88ncker.jpg
+      \verb https://devx.meta.gov.co/media/centrodocumentacion/2022/05/16/EVA_2020.pdf
       \endverb
       \verb{url}
-      \verb https://cuestionpublica.com/wp-content/uploads/2019/09/8.Entrega-mercados-Juan-Jose%CC%81-4_Cre%CC%81dito-Bu%CC%88ncker.jpg
+      \verb https://devx.meta.gov.co/media/centrodocumentacion/2022/05/16/EVA_2020.pdf
       \endverb
     \endentry
-    \entry{culturarecreacion_campesinos_2025}{misc}{}
+    \entry{Finagro2022}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=ec00700aac7c1ca92cee8878c2656adb}{%
-           family={{Cultura, Recreación y Deporte}},
-           familyi={C\bibinitperiod}}}%
+        {{hash=fd3b01e8f3e62255f684b4c39ce783c9}{%
+           family={{FINAGRO}},
+           familyi={F\bibinitperiod}}}%
       }
-      \strng{namehash}{ec00700aac7c1ca92cee8878c2656adb}
-      \strng{fullhash}{ec00700aac7c1ca92cee8878c2656adb}
-      \strng{bibnamehash}{ec00700aac7c1ca92cee8878c2656adb}
-      \strng{authorbibnamehash}{ec00700aac7c1ca92cee8878c2656adb}
-      \strng{authornamehash}{ec00700aac7c1ca92cee8878c2656adb}
-      \strng{authorfullhash}{ec00700aac7c1ca92cee8878c2656adb}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \strng{namehash}{fd3b01e8f3e62255f684b4c39ce783c9}
+      \strng{fullhash}{fd3b01e8f3e62255f684b4c39ce783c9}
+      \strng{fullhashraw}{fd3b01e8f3e62255f684b4c39ce783c9}
+      \strng{bibnamehash}{fd3b01e8f3e62255f684b4c39ce783c9}
+      \strng{authorbibnamehash}{fd3b01e8f3e62255f684b4c39ce783c9}
+      \strng{authornamehash}{fd3b01e8f3e62255f684b4c39ce783c9}
+      \strng{authorfullhash}{fd3b01e8f3e62255f684b4c39ce783c9}
+      \strng{authorfullhashraw}{fd3b01e8f3e62255f684b4c39ce783c9}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{Online}
-      \field{note}{Imagen obtenida de {Cultura, Recreación y Deporte}}
-      \field{title}{Campesinos en Colombia}
-      \field{year}{2025}
+      \field{note}{Accessed: 2025-03-27}
+      \field{title}{{Aguacate Hass en Colombia}}
+      \field{year}{2022}
       \verb{urlraw}
-      \verb https://www.culturarecreacionydeporte.gov.co/sites/default/files/images/campesinos.jpg
+      \verb https://www.finagro.com.co/sites/default/files/2022-05/aguacate_hass.pdf
       \endverb
       \verb{url}
-      \verb https://www.culturarecreacionydeporte.gov.co/sites/default/files/images/campesinos.jpg
+      \verb https://www.finagro.com.co/sites/default/files/2022-05/aguacate_hass.pdf
       \endverb
     \endentry
-    \entry{elempleo_campesinos_2023}{misc}{}
+    \entry{Gutierrez2012}{article}{}{}
       \name{author}{1}{}{%
-        {{hash=a4f9f154769a9cbc5dd5597d067e701d}{%
-           family={{elempleo.com}},
-           familyi={e\bibinitperiod}}}%
+        {{hash=b51650e8a1d08579f0a4d00165e4c771}{%
+           family={Gutiérrez},
+           familyi={G\bibinitperiod},
+           given={Diego},
+           giveni={D\bibinitperiod}}}%
       }
-      \strng{namehash}{a4f9f154769a9cbc5dd5597d067e701d}
-      \strng{fullhash}{a4f9f154769a9cbc5dd5597d067e701d}
-      \strng{bibnamehash}{a4f9f154769a9cbc5dd5597d067e701d}
-      \strng{authorbibnamehash}{a4f9f154769a9cbc5dd5597d067e701d}
-      \strng{authornamehash}{a4f9f154769a9cbc5dd5597d067e701d}
-      \strng{authorfullhash}{a4f9f154769a9cbc5dd5597d067e701d}
-      \field{sortinit}{e}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{Online}
-      \field{note}{Imagen obtenida de {elempleo.com}}
-      \field{title}{Campesinos en Colombia}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://cmsresources.elempleo.com/co/assets/backend/styles/770x513/public/2023-06/campesinos%20(1).jpg
-      \endverb
-      \verb{url}
-      \verb https://cmsresources.elempleo.com/co/assets/backend/styles/770x513/public/2023-06/campesinos%20(1).jpg
-      \endverb
-    \endentry
-    \entry{gutierrez2012teoria}{article}{}
-      \name{author}{1}{}{%
-        {{hash=07e9f14625ead27a249bea5b38ea218a}{%
-           family={Gutiérrez\bibnamedelima Bedoya},
-           familyi={G\bibinitperiod\bibinitdelim B\bibinitperiod},
-           given={Diego\bibnamedelima Felipe},
-           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-      }
-      \strng{namehash}{07e9f14625ead27a249bea5b38ea218a}
-      \strng{fullhash}{07e9f14625ead27a249bea5b38ea218a}
-      \strng{bibnamehash}{07e9f14625ead27a249bea5b38ea218a}
-      \strng{authorbibnamehash}{07e9f14625ead27a249bea5b38ea218a}
-      \strng{authornamehash}{07e9f14625ead27a249bea5b38ea218a}
-      \strng{authorfullhash}{07e9f14625ead27a249bea5b38ea218a}
+      \strng{namehash}{b51650e8a1d08579f0a4d00165e4c771}
+      \strng{fullhash}{b51650e8a1d08579f0a4d00165e4c771}
+      \strng{fullhashraw}{b51650e8a1d08579f0a4d00165e4c771}
+      \strng{bibnamehash}{b51650e8a1d08579f0a4d00165e4c771}
+      \strng{authorbibnamehash}{b51650e8a1d08579f0a4d00165e4c771}
+      \strng{authornamehash}{b51650e8a1d08579f0a4d00165e4c771}
+      \strng{authorfullhash}{b51650e8a1d08579f0a4d00165e4c771}
+      \strng{authorfullhashraw}{b51650e8a1d08579f0a4d00165e4c771}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Econografos Escuela de Economía No}
-      \field{title}{Teoría de la Migración Colectiva como Explicación al Desplazamiento Forzado en Colombia (Collective Migration Theory as an Explanation of the Forced Displacement by Conflict in Colombia)}
+      \field{journaltitle}{Econografos Escuela de Economía No. 16}
+      \field{title}{Teoría de la Migración Colectiva como Explicación al Desplazamiento Forzado en Colombia}
       \field{year}{2012}
-    \endentry
-    \entry{infobae}{online}{}
-      \name{author}{1}{}{%
-        {{hash=67c02f59c769ce0df2c15d009aeb31ce}{%
-           family={{Infobae}},
-           familyi={I\bibinitperiod}}}%
-      }
-      \strng{namehash}{67c02f59c769ce0df2c15d009aeb31ce}
-      \strng{fullhash}{67c02f59c769ce0df2c15d009aeb31ce}
-      \strng{bibnamehash}{67c02f59c769ce0df2c15d009aeb31ce}
-      \strng{authorbibnamehash}{67c02f59c769ce0df2c15d009aeb31ce}
-      \strng{authornamehash}{67c02f59c769ce0df2c15d009aeb31ce}
-      \strng{authorfullhash}{67c02f59c769ce0df2c15d009aeb31ce}
-      \field{sortinit}{I}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{127 familias desplazadas por el conflicto retornan a sus territorios}
-      \field{urlday}{28}
-      \field{urlmonth}{2}
-      \field{urlyear}{2025}
-      \field{year}{2025}
-      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.2139/ssrn.2194565
+      \endverb
       \verb{urlraw}
-      \verb https://www.infobae.com/colombia/2024/06/06/127-familias-desplazadas-por-el-conflicto-retornan-a-sus-territorios/
+      \verb https://ssrn.com/abstract=2194565
       \endverb
       \verb{url}
-      \verb https://www.infobae.com/colombia/2024/06/06/127-familias-desplazadas-por-el-conflicto-retornan-a-sus-territorios/
+      \verb https://ssrn.com/abstract=2194565
       \endverb
     \endentry
-    \entry{renteria2023dinamica}{article}{}
-      \name{author}{2}{}{%
-        {{hash=bcd5bed54906817de279a7908d452512}{%
-           family={Rentería\bibnamedelima Ramos},
-           familyi={R\bibinitperiod\bibinitdelim R\bibinitperiod},
-           given={Rafael\bibnamedelima Ricardo},
-           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=873cb781d7853d90a55452b91c75041f}{%
-           family={Vitale\bibnamedelima Alfonso},
-           familyi={V\bibinitperiod\bibinitdelim A\bibinitperiod},
-           given={Alicia\bibnamedelima María},
-           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+    \entry{hebert2017agent}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=83b0c17ea18761a689687b34e1b7e277}{%
+           family={Hébert},
+           familyi={H\bibinitperiod},
+           given={Guillaume\bibnamedelima Arnoux},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=8eb3b96f5468607b2aa2805ccaa91906}{%
+           family={Perez},
+           familyi={P\bibinitperiod},
+           given={Liliana},
+           giveni={L\bibinitperiod}}}%
+        {{hash=1dc0d4afcdbc34ba6b95e6575694bd35}{%
+           family={Harati},
+           familyi={H\bibinitperiod},
+           given={Saeed},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{4a306f4c60eb190ceaa1806606bee7f6}
+      \strng{fullhash}{4a306f4c60eb190ceaa1806606bee7f6}
+      \strng{fullhashraw}{4a306f4c60eb190ceaa1806606bee7f6}
+      \strng{bibnamehash}{4a306f4c60eb190ceaa1806606bee7f6}
+      \strng{authorbibnamehash}{4a306f4c60eb190ceaa1806606bee7f6}
+      \strng{authornamehash}{4a306f4c60eb190ceaa1806606bee7f6}
+      \strng{authorfullhash}{4a306f4c60eb190ceaa1806606bee7f6}
+      \strng{authorfullhashraw}{4a306f4c60eb190ceaa1806606bee7f6}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Agent-Based Models and Complexity Science in the Age of Geospatial Big Data: Selected Papers from a workshop on Agent-Based Models and Complexity Science (GIScience 2016)}
+      \field{title}{An agent-based model to identify migration pathways of refugees: the case of Syria}
+      \field{year}{2017}
+      \field{pages}{45\bibrangedash 58}
+      \range{pages}{14}
+    \endentry
+    \entry{CifrasSectoriales2021}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=faa6d79d0bfc09330090c4d02455c830}{%
+           family={{Ministerio de Agricultura y Desarrollo Rural de Colombia}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{faa6d79d0bfc09330090c4d02455c830}
+      \strng{fullhash}{faa6d79d0bfc09330090c4d02455c830}
+      \strng{fullhashraw}{faa6d79d0bfc09330090c4d02455c830}
+      \strng{bibnamehash}{faa6d79d0bfc09330090c4d02455c830}
+      \strng{authorbibnamehash}{faa6d79d0bfc09330090c4d02455c830}
+      \strng{authornamehash}{faa6d79d0bfc09330090c4d02455c830}
+      \strng{authorfullhash}{faa6d79d0bfc09330090c4d02455c830}
+      \strng{authorfullhashraw}{faa6d79d0bfc09330090c4d02455c830}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2025-03-27}
+      \field{title}{{Cifras Sectoriales del Aguacate}}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://sioc.minagricultura.gov.co/Aguacate/Documentos/2021-03-31%20Cifras%20Sectoriales.pdf
+      \endverb
+      \verb{url}
+      \verb https://sioc.minagricultura.gov.co/Aguacate/Documentos/2021-03-31%20Cifras%20Sectoriales.pdf
+      \endverb
+    \endentry
+    \entry{perez2016impacto}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=7eb347b098b203c76e043a3f801f9ba3}{%
+           family={Pérez},
+           familyi={P\bibinitperiod},
+           given={Camilo\bibnamedelima Pacheco},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {El Colegio de México AC}%
+        {Universidad Santo Tomás Bucaramanga}%
       }
-      \strng{namehash}{6cd5cb7302a6c4432e697267e1e8dded}
-      \strng{fullhash}{6cd5cb7302a6c4432e697267e1e8dded}
-      \strng{bibnamehash}{6cd5cb7302a6c4432e697267e1e8dded}
-      \strng{authorbibnamehash}{6cd5cb7302a6c4432e697267e1e8dded}
-      \strng{authornamehash}{6cd5cb7302a6c4432e697267e1e8dded}
-      \strng{authorfullhash}{6cd5cb7302a6c4432e697267e1e8dded}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \strng{namehash}{7eb347b098b203c76e043a3f801f9ba3}
+      \strng{fullhash}{7eb347b098b203c76e043a3f801f9ba3}
+      \strng{fullhashraw}{7eb347b098b203c76e043a3f801f9ba3}
+      \strng{bibnamehash}{7eb347b098b203c76e043a3f801f9ba3}
+      \strng{authorbibnamehash}{7eb347b098b203c76e043a3f801f9ba3}
+      \strng{authornamehash}{7eb347b098b203c76e043a3f801f9ba3}
+      \strng{authorfullhash}{7eb347b098b203c76e043a3f801f9ba3}
+      \strng{authorfullhashraw}{7eb347b098b203c76e043a3f801f9ba3}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Estudios demográficos y urbanos}
+      \field{journaltitle}{Lebret}
+      \field{number}{8}
+      \field{title}{Impacto económico de la violencia armada sobre la producción campesina, caso municipios zona de distensión departamento del Meta, Colombia (1991-2014)}
+      \field{year}{2016}
+      \field{pages}{93\bibrangedash 123}
+      \range{pages}{31}
+    \endentry
+    \entry{santacoloma2015importancia}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=258f5421ecd18eaa89b69f44482c28d4}{%
+           family={Santacoloma-Varón},
+           familyi={S\bibinithyphendelim V\bibinitperiod},
+           given={Luz\bibnamedelima Elena},
+           giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Universidad Libre, Cali, Colombia}%
+      }
+      \strng{namehash}{258f5421ecd18eaa89b69f44482c28d4}
+      \strng{fullhash}{258f5421ecd18eaa89b69f44482c28d4}
+      \strng{fullhashraw}{258f5421ecd18eaa89b69f44482c28d4}
+      \strng{bibnamehash}{258f5421ecd18eaa89b69f44482c28d4}
+      \strng{authorbibnamehash}{258f5421ecd18eaa89b69f44482c28d4}
+      \strng{authornamehash}{258f5421ecd18eaa89b69f44482c28d4}
+      \strng{authorfullhash}{258f5421ecd18eaa89b69f44482c28d4}
+      \strng{authorfullhashraw}{258f5421ecd18eaa89b69f44482c28d4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Entramado}
       \field{number}{2}
-      \field{title}{Dinámica migratoria en Risaralda, Colombia: modelo basado en agentes}
-      \field{volume}{38}
-      \field{year}{2023}
-      \field{pages}{415\bibrangedash 460}
-      \range{pages}{46}
+      \field{title}{Importancia de la economía campesina en los contextos contemporáneos: una mirada al caso colombiano}
+      \field{volume}{11}
+      \field{year}{2015}
+      \field{pages}{38\bibrangedash 50}
+      \range{pages}{13}
     \endentry
-    \entry{unidadvictimas_observatorio_2023}{misc}{}
+    \entry{suleimenova2020predicting}{thesis}{}{}
       \name{author}{1}{}{%
-        {{hash=d3f181e11e5f4a94495be3255703769a}{%
-           family={{Unidad para las Víctimas}},
-           familyi={U\bibinitperiod}}}%
+        {{hash=bd94f1a0a1c8745d7a114e20ae531202}{%
+           family={Suleimenova},
+           familyi={S\bibinitperiod},
+           given={Diana},
+           giveni={D\bibinitperiod}}}%
       }
-      \strng{namehash}{d3f181e11e5f4a94495be3255703769a}
-      \strng{fullhash}{d3f181e11e5f4a94495be3255703769a}
-      \strng{bibnamehash}{d3f181e11e5f4a94495be3255703769a}
-      \strng{authorbibnamehash}{d3f181e11e5f4a94495be3255703769a}
-      \strng{authornamehash}{d3f181e11e5f4a94495be3255703769a}
-      \strng{authorfullhash}{d3f181e11e5f4a94495be3255703769a}
-      \field{extraname}{1}
-      \field{sortinit}{U}
-      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \list{institution}{1}{%
+        {Brunel University London}%
+      }
+      \strng{namehash}{bd94f1a0a1c8745d7a114e20ae531202}
+      \strng{fullhash}{bd94f1a0a1c8745d7a114e20ae531202}
+      \strng{fullhashraw}{bd94f1a0a1c8745d7a114e20ae531202}
+      \strng{bibnamehash}{bd94f1a0a1c8745d7a114e20ae531202}
+      \strng{authorbibnamehash}{bd94f1a0a1c8745d7a114e20ae531202}
+      \strng{authornamehash}{bd94f1a0a1c8745d7a114e20ae531202}
+      \strng{authorfullhash}{bd94f1a0a1c8745d7a114e20ae531202}
+      \strng{authorfullhashraw}{bd94f1a0a1c8745d7a114e20ae531202}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{Online}
-      \field{note}{Imagen obtenida de {Unidad para las Víctimas}}
-      \field{title}{Observatorio de Víctimas en Colombia}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://www.unidadvictimas.gov.co/wp-content/uploads/2023/05/observatorio_0.jpg
-      \endverb
-      \verb{url}
-      \verb https://www.unidadvictimas.gov.co/wp-content/uploads/2023/05/observatorio_0.jpg
-      \endverb
-    \endentry
-    \entry{unidadvictimas_ruv_2025}{online}{}
-      \name{author}{1}{}{%
-        {{hash=d3f181e11e5f4a94495be3255703769a}{%
-           family={{Unidad para las Víctimas}},
-           familyi={U\bibinitperiod}}}%
-      }
-      \strng{namehash}{d3f181e11e5f4a94495be3255703769a}
-      \strng{fullhash}{d3f181e11e5f4a94495be3255703769a}
-      \strng{bibnamehash}{d3f181e11e5f4a94495be3255703769a}
-      \strng{authorbibnamehash}{d3f181e11e5f4a94495be3255703769a}
-      \strng{authornamehash}{d3f181e11e5f4a94495be3255703769a}
-      \strng{authorfullhash}{d3f181e11e5f4a94495be3255703769a}
-      \field{extraname}{2}
-      \field{sortinit}{U}
-      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Registro Único de Víctimas (RUV)}
-      \field{urlday}{28}
-      \field{urlmonth}{2}
-      \field{urlyear}{2025}
-      \field{year}{2025}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.unidadvictimas.gov.co/registro-unico-de-victimas-ruv/
-      \endverb
-      \verb{url}
-      \verb https://www.unidadvictimas.gov.co/registro-unico-de-victimas-ruv/
-      \endverb
-    \endentry
-    \entry{vozdeamerica_desplazamiento_2024}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=3e660f10c3d2a3a3b4eab905f94f2d35}{%
-           family={{Voz de América}},
-           familyi={V\bibinitperiod}}}%
-      }
-      \strng{namehash}{3e660f10c3d2a3a3b4eab905f94f2d35}
-      \strng{fullhash}{3e660f10c3d2a3a3b4eab905f94f2d35}
-      \strng{bibnamehash}{3e660f10c3d2a3a3b4eab905f94f2d35}
-      \strng{authorbibnamehash}{3e660f10c3d2a3a3b4eab905f94f2d35}
-      \strng{authornamehash}{3e660f10c3d2a3a3b4eab905f94f2d35}
-      \strng{authorfullhash}{3e660f10c3d2a3a3b4eab905f94f2d35}
-      \field{sortinit}{V}
-      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{Online}
-      \field{note}{Imagen obtenida de {Voz de América}}
-      \field{title}{Grupos armados en Colombia y el desplazamiento forzado}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://gdb.voanews.com/01000000-c0a8-0242-1dfd-08dbec6fc1c4_w1080_h608_s.jpg
-      \endverb
-      \verb{url}
-      \verb https://gdb.voanews.com/01000000-c0a8-0242-1dfd-08dbec6fc1c4_w1080_h608_s.jpg
-      \endverb
-    \endentry
-    \entry{eswiki:165573820}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=9c677286866aad38f8e9b660f5411814}{%
-           family={Wikipedia},
-           familyi={W\bibinitperiod}}}%
-      }
-      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
-      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
-      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
-      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
-      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
-      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
-      \field{extraname}{1}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{[Internet; descargado 21-febrero-2025]}
-      \field{title}{Bogotá --- Wikipedia{,} La enciclopedia libre}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://es.wikipedia.org/w/index.php?title=Bogot%C3%A1&oldid=165573820
-      \endverb
-      \verb{url}
-      \verb https://es.wikipedia.org/w/index.php?title=Bogot%C3%A1&oldid=165573820
-      \endverb
-    \endentry
-    \entry{eswiki:165709323}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=9c677286866aad38f8e9b660f5411814}{%
-           family={Wikipedia},
-           familyi={W\bibinitperiod}}}%
-      }
-      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
-      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
-      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
-      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
-      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
-      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
-      \field{extraname}{2}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{[Internet; descargado 26-febrero-2025]}
-      \field{title}{Demografía de Colombia --- Wikipedia{,} La enciclopedia libre}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://es.wikipedia.org/w/index.php?title=Demograf%C3%ADa_de_Colombia&oldid=165709323
-      \endverb
-      \verb{url}
-      \verb https://es.wikipedia.org/w/index.php?title=Demograf%C3%ADa_de_Colombia&oldid=165709323
-      \endverb
+      \field{title}{Predicting forced displacement using a generalised and automated agent-based simulation}
+      \field{type}{phdthesis}
+      \field{year}{2020}
     \endentry
   \enddatalist
 \endrefsection

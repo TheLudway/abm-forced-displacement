@@ -1,6 +1,4 @@
 \babel@toc {spanish}{}\relax 
-\beamer@sectionintoc {1}{Contexto}{2}{0}{1}
-\beamer@sectionintoc {2}{Motivación}{8}{0}{2}
-\beamer@sectionintoc {3}{Propósitos y Preguntas}{10}{0}{3}
-\beamer@sectionintoc {4}{Posibles Modelos}{12}{0}{4}
-\beamer@sectionintoc {5}{Referencias}{16}{0}{5}
+\beamer@sectionintoc {1}{Hallazgos \textit {papers}}{2}{0}{1}
+\beamer@sectionintoc {2}{Licencia proyecto}{14}{0}{2}
+\beamer@sectionintoc {3}{Referencias}{16}{0}{3}

@@ -2,7 +2,7 @@
 
 
 
-\title{Cambio en los Ingresos de Familias Desplazadas del Meta por el Conflicto Armado}
+\title{\LARGE Cambio en los Ingresos de Familias Desplazadas del Meta por el Conflicto Armado}
 \date{\today}
 \institute[UJTL]{Universidad Jorge Tadeo Lozano}
 \author{Ludwig Alvarado Becerra}
@@ -12,6 +12,8 @@
 \usepackage{biblatex}
 \usepackage{hyperref}
 \usepackage{xurl}
+\usepackage{cancel}
+\usepackage{svg}
 
 \addbibresource{referencias.bib}  % Make sure your .bib file is correctly named
 
@@ -38,6 +40,177 @@
 \begin{document}
 
 \inserttitlepage
+
+\section{Hallazgos \textit{papers}}
+
+\insertsectionpage
+
+\begin{frame}[allowframebreaks]
+  \frametitle{Hallazgos \textit{papers}}
+  Se consultaron principalmente los siguientes artículos científicos:
+  \begin{itemize}
+    \item \textit{Predicting forced displacement using a generalised and automated agentbased simulation} \cite{suleimenova2020predicting}
+    \item \textit{An agent-based model to identify migration pathways of refugees: the case of syria} \cite{hebert2017agent}
+    \item \textit{Teorı́a de la migración colectiva como explicación al desplazamiento forzado en colombia} \cite{Gutierrez2012}
+    \item \textit{Importancia de la economı́a campesina en los contextos contemporáneos: una mirada al caso colombiano}\cite{santacoloma2015importancia}
+    \item \textit{Impacto económico de la violencia armada sobre la producción campesina, caso municipios zona de distensión departamento del meta, colombia (1991-2014)} \cite{perez2016impacto}
+  \end{itemize}
+
+\end{frame}
+
+\begin{frame}[allowframebreaks]
+  \frametitle{Hallazgos \textit{papers}}
+  Se obtienen las siguientes ideas:
+  \begin{itemize}
+    \item Dos agentes: campesinos y grupo armado.
+    \item Valor de violencia percibida por la población campesina.
+    \item Atributo para campsinos: \texttt{Desplazado} \texttt{No desplazado}.
+    \item Campesinos atributo de tolerancia al peligro.
+    \item Campesinos con métodos para generar ingresos.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[allowframebreaks]
+  \frametitle{Hallazgos \textit{papers}}
+  
+  Valoración ambiental del Meta\cite{EVA2020}, principales producciones de cultivos (2020):
+  
+  \begin{itemize}
+    \item Aguacate $35014.28\ t$ 
+    \item Caña azucarera $56170.40\ t$
+    \item Cítricos $76298.28\ t$
+    \item Maracuyá $44967.31\ t$
+    \item Palma de aceite $637606.60\ t$
+    \item Piña $116775.02\ t$
+    \item Plátano $396613.49\ t$
+  \end{itemize}
+
+
+\end{frame}
+
+\begin{frame}[allowframebreaks]
+  \frametitle{Métodos para ingresos de los campesinos}
+  
+
+  \begin{itemize}
+    \item Se va a asumir que todos los campesinos producen lo mismo en mismas cantidades y únicamente cultivos. 
+    \item Función \texttt{producir\_\{\textit{cultivo}\}(\textit{int}):\textit{float}}.
+    \item Se resta el costo de producción promedio de cada cultivo.
+    \item Se utilizan cuando la condición del agente es \texttt{no migrante}.
+  \end{itemize}
+
+
+\end{frame}
+
+\begin{frame}[allowframebreaks]
+  \frametitle{Ejemplo producción aguacate}
+  
+  \begin{itemize}
+    \item Campesinos (registrados) en el Meta: $16211$\cite{EVA2020}
+    \item Producción de aguacate: $35014.28\ t/a$\cite{EVA2020}
+    \item Valor aguacate: $2915.5\ \$/kg$\cite{CifrasSectoriales2021}
+    \item Costo producción aguacate: $879 \$/kg$\cite{Finagro2022}
+  \end{itemize}
+
+\end{frame}
+
+\begin{frame}[allowframebreaks]
+
+  Se desea que todo esté en valores de peso por día $\$/d$.
+
+\end{frame}
+
+
+\begin{frame}[allowframebreaks]
+
+  Se desea que todo esté en valores de peso por día $\$/d$.
+
+    \[
+    \frac{35014.28\ \cancel{t}}{1\  \cancel{\text{año}}} \times \left( \frac{1 \  \cancel{\text{año}}}{365 \ \text{días}}  \right) \times \left( \frac{1000\ kg}{1 \ \cancel{t}} \right)
+    \]
+
+\end{frame}
+
+
+\begin{frame}[allowframebreaks]
+
+  Se desea que todo esté en valores de peso por día $\$/d$.
+
+    \[
+    \frac{35014.28\ \cancel{t}}{1\  \cancel{\text{año}}} \times \left( \frac{1 \  \cancel{\text{año}}}{365 \ \text{días}}  \right) \times \left( \frac{1000\ kg}{1 \ \cancel{t}} \right)
+  \]
+
+  \[
+    95929.53 \frac{kg}{\text{día}} \times \left( \frac{1}{16211}\right) = 5.92 \frac{kg}{\text{día}} 
+  \]
+
+\end{frame}
+
+
+\begin{frame}[allowframebreaks]
+
+  Se desea que todo esté en valores de peso por día $\$/d$.
+
+    \[
+    \frac{35014.28\ \cancel{t}}{1\  \cancel{\text{año}}} \times \left( \frac{1 \  \cancel{\text{año}}}{365 \ \text{días}}  \right) \times \left( \frac{1000\ kg}{1 \ \cancel{t}} \right)
+  \]
+
+  \[
+    95929.53 \frac{kg}{\text{día}} \times \left( \frac{1}{16211}\right) = 5.92 \frac{kg}{\text{día}} 
+  \]
+
+  \[
+    \left(2912.5 \frac{\$}{\cancel{kg}} - 879 \frac{\$}{\cancel{kg}} \right) \times 5.92 \frac{\cancel{kg}}{\text{día}} = 12038.32 \frac{\$}{\text{día}}
+  \]
+
+\end{frame}
+
+
+\begin{frame}
+  \begin{itemize}
+    \item Un campesino en promedio gana $12032.32$ pesos al día por su producción de aguacate.
+    \item Repetir el proceso con lo demás métodos.
+    \item Se contempleta agregar una incertidumbre para la variabilidad de cada campesino.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Clase Campesino}
+  \begin{figure}[ht]
+    \centering
+    \includegraphics[width = 0.3\textwidth]{img/Migraciones.png}
+  \end{figure}
+
+\end{frame}
+
+
+\section{Licencia proyecto}
+
+\insertsectionpage
+
+
+\begin{frame}
+  \frametitle{Licencia}
+
+\begin{columns}
+  \begin{column}{.5\textwidth}
+    \begin{itemize}
+      \item El código está bajo una licencia GPL V3, las presentaciones y escritos bajo la CC 4.0
+      \item Todo el proyecto (bibliografía, avances, presentaciones y código) se encuentra en el siguiente enlace a \textit{GitHub} \url{https://github.com/TheLudway/abm-forced-displacement}
+    \end{itemize}
+  \end{column}
+
+  \begin{column}{.5\textwidth}
+    \begin{figure}[ht]
+      \centering
+      \includegraphics[width = 0.7\textwidth]{img/gpl.png}
+    \end{figure}
+
+  \end{column}
+\end{columns}
+
+
+\end{frame}
 
 
 
