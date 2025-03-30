@@ -21,18 +21,23 @@ to setup
 end
 
 to go
-  ; Example: Money changes randomly over time
-  ask campesinos [
-    set total_money total_money + random 20 - 10  ; Money fluctuates randomly
-  ]
-
-  plot-money  ; Update the graph
+  prod-aguacate  ; Apply income increase rule
+  plot-money       ; Update the graph
   tick
 end
 
+;; === Aguacate ===
+to prod-aguacate
+  ask campesinos [
+    if not migrant [  ; Only increase money if they are NOT migrants
+      set total_money total_money + 12032.32
+    ]
+  ]
+end
+
 to plot-money
-  set-current-plot "Total Money of Campesinos"  ; Ensure this matches the Interface plot name
-  plot sum [total_money] of campesinos  ; Plot the total money over time
+  set-current-plot "Total Money of Campesinos"
+  plot sum [total_money] of campesinos
 end
 @#$#@#$#@
 GRAPHICS-WINDOW
@@ -65,8 +70,8 @@ ticks
 PLOT
 746
 86
-946
-236
+1532
+605
 Total Money of Campesinos
 Time
 Total Money
