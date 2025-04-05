@@ -11,10 +11,9 @@ campesinos-own [
 to setup
   clear-all
   create-campesinos 10 [
-     set tolerance_level random 100 + 1   ; Value between 1 and 100
+    set tolerance_level random 100 + 1   ; Value between 1 and 100
     set total_money random 500 + 100     ; Random money between 100 and 600
     set migrant false                    ; Default: they haven't migrated
-    setxy random-xcor random-ycor        ; Place randomly in the world
   ]
 
   reset-ticks
