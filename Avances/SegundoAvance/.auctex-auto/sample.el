@@ -28,6 +28,8 @@
     "xurl"
     "cancel"
     "svg")
+   (LaTeX-add-labels
+    "fig:p1f1")
    (LaTeX-add-bibliographies
     "referencias"))
  :latex)

@@ -12,6 +12,9 @@
     "perez2016impacto"
     "EVA2020"
     "CifrasSectoriales2021"
-    "Finagro2022"))
+    "Finagro2022"
+    "groen_flee_2023"
+    "groen_fabsim3_2023"
+    "Visualflee"))
  '(or :bibtex :latex))
 

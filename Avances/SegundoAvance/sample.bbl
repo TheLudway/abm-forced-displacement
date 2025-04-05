@@ -74,6 +74,62 @@
       \verb https://www.finagro.com.co/sites/default/files/2022-05/aguacate_hass.pdf
       \endverb
     \endentry
+    \entry{groen_fabsim3_2023}{misc}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=5cfef059eb6c314b9c37f5b1f41ba772}{%
+           family={Groen},
+           familyi={G\bibinitperiod},
+           given={Derek},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{80742d1b62f04dd0027ca5f87689e454}
+      \strng{fullhash}{80742d1b62f04dd0027ca5f87689e454}
+      \strng{fullhashraw}{80742d1b62f04dd0027ca5f87689e454}
+      \strng{bibnamehash}{80742d1b62f04dd0027ca5f87689e454}
+      \strng{authorbibnamehash}{80742d1b62f04dd0027ca5f87689e454}
+      \strng{authornamehash}{80742d1b62f04dd0027ca5f87689e454}
+      \strng{authorfullhash}{80742d1b62f04dd0027ca5f87689e454}
+      \strng{authorfullhashraw}{80742d1b62f04dd0027ca5f87689e454}
+      \field{extraname}{1}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://fabsim3.readthedocs.io/en/latest/}}
+      \field{note}{Accessed: 2025-03-30}
+      \field{title}{FabSim3: Automation Toolkit for Computational Research}
+      \field{year}{2025}
+    \endentry
+    \entry{groen_flee_2023}{misc}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=5cfef059eb6c314b9c37f5b1f41ba772}{%
+           family={Groen},
+           familyi={G\bibinitperiod},
+           given={Derek},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{80742d1b62f04dd0027ca5f87689e454}
+      \strng{fullhash}{80742d1b62f04dd0027ca5f87689e454}
+      \strng{fullhashraw}{80742d1b62f04dd0027ca5f87689e454}
+      \strng{bibnamehash}{80742d1b62f04dd0027ca5f87689e454}
+      \strng{authorbibnamehash}{80742d1b62f04dd0027ca5f87689e454}
+      \strng{authornamehash}{80742d1b62f04dd0027ca5f87689e454}
+      \strng{authorfullhash}{80742d1b62f04dd0027ca5f87689e454}
+      \strng{authorfullhashraw}{80742d1b62f04dd0027ca5f87689e454}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://github.com/djgroen/flee}}
+      \field{note}{Accessed: 2025-03-30}
+      \field{title}{FLEE: A Flexible Large-Scale Agent-Based Simulation Framework for Modeling Refugee Movements}
+      \field{year}{2025}
+    \endentry
     \entry{Gutierrez2012}{article}{}{}
       \name{author}{1}{}{%
         {{hash=b51650e8a1d08579f0a4d00165e4c771}{%
@@ -261,6 +317,34 @@
       \field{title}{Predicting forced displacement using a generalised and automated agent-based simulation}
       \field{type}{phdthesis}
       \field{year}{2020}
+    \endentry
+    \entry{Visualflee}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=bd94f1a0a1c8745d7a114e20ae531202}{%
+           family={Suleimenova},
+           familyi={S\bibinitperiod},
+           given={Diana},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a8b2e39951bba535f313f563f6abaef6}{%
+           family={contributors},
+           familyi={c\bibinitperiod}}}%
+      }
+      \strng{namehash}{10ef21947f294f199bd6bbb6fb4978a3}
+      \strng{fullhash}{10ef21947f294f199bd6bbb6fb4978a3}
+      \strng{fullhashraw}{10ef21947f294f199bd6bbb6fb4978a3}
+      \strng{bibnamehash}{10ef21947f294f199bd6bbb6fb4978a3}
+      \strng{authorbibnamehash}{10ef21947f294f199bd6bbb6fb4978a3}
+      \strng{authornamehash}{10ef21947f294f199bd6bbb6fb4978a3}
+      \strng{authorfullhash}{10ef21947f294f199bd6bbb6fb4978a3}
+      \strng{authorfullhashraw}{10ef21947f294f199bd6bbb6fb4978a3}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://github.com/cspgdds/Visualflee}}
+      \field{note}{Accessed: 2025-04-05}
+      \field{title}{Visualflee: Visualization of Refugee Movements and Population Dynamics}
+      \field{year}{2019}
     \endentry
   \enddatalist
 \endrefsection
