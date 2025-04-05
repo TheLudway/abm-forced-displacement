@@ -46,6 +46,35 @@
       \verb https://devx.meta.gov.co/media/centrodocumentacion/2022/05/16/EVA_2020.pdf
       \endverb
     \endentry
+    \entry{farodiroma_choco_2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=695d1ffeccba68df94d68ec70cff08b5}{%
+           family={{FarodiRoma Editorial Team}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{695d1ffeccba68df94d68ec70cff08b5}
+      \strng{fullhash}{695d1ffeccba68df94d68ec70cff08b5}
+      \strng{fullhashraw}{695d1ffeccba68df94d68ec70cff08b5}
+      \strng{bibnamehash}{695d1ffeccba68df94d68ec70cff08b5}
+      \strng{authorbibnamehash}{695d1ffeccba68df94d68ec70cff08b5}
+      \strng{authornamehash}{695d1ffeccba68df94d68ec70cff08b5}
+      \strng{authorfullhash}{695d1ffeccba68df94d68ec70cff08b5}
+      \strng{authorfullhashraw}{695d1ffeccba68df94d68ec70cff08b5}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{FarodiRoma}
+      \field{note}{Accessed: 2025-04-05}
+      \field{title}{Colombia. Chocó sigue sufriendo la pandemia de la violencia, el abandono estatal y la corrupción}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.farodiroma.it/colombia-choco-sigue-sufriendo-la-pandemia-de-la-violencia-el-abandono-estatal-y-la-corrupcion/
+      \endverb
+      \verb{url}
+      \verb https://www.farodiroma.it/colombia-choco-sigue-sufriendo-la-pandemia-de-la-violencia-el-abandono-estatal-y-la-corrupcion/
+      \endverb
+    \endentry
     \entry{Finagro2022}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=fd3b01e8f3e62255f684b4c39ce783c9}{%
@@ -345,6 +374,34 @@
       \field{note}{Accessed: 2025-04-05}
       \field{title}{Visualflee: Visualization of Refugee Movements and Population Dynamics}
       \field{year}{2019}
+    \endentry
+    \entry{eswiki:166396423}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhashraw}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhashraw}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Internet; descargado 26-marzo-2025]}
+      \field{title}{Meta (Colombia) --- Wikipedia{,} La enciclopedia libre}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb \url{https://es.wikipedia.org/w/index.php?title=Meta_(Colombia)&oldid=166396423}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttps://es.wikipedia.org/w/index.php?title=Meta_(Colombia)&oldid=166396423%7D
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

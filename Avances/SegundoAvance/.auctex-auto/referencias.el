@@ -15,6 +15,8 @@
     "Finagro2022"
     "groen_flee_2023"
     "groen_fabsim3_2023"
-    "Visualflee"))
+    "Visualflee"
+    "eswiki:166396423"
+    "farodiroma_choco_2025"))
  '(or :bibtex :latex))
 
