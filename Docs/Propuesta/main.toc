@@ -1,6 +1,0 @@
-\babel@toc {spanish}{}\relax 
-\contentsline {section}{\numberline {1}Descripción del problema}{1}{section.1}%
-\contentsline {section}{\numberline {2}Contexto}{1}{section.2}%
-\contentsline {section}{\numberline {3}Estado del arte}{1}{section.3}%
-\contentsline {section}{\numberline {4}Objetivo general}{1}{section.4}%
-\contentsline {section}{\numberline {5}Metodología}{1}{section.5}%
