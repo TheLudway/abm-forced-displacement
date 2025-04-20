@@ -23,6 +23,7 @@
 \usepackage{array}
 \usepackage{listings}
 \usepackage{cancel}
+\usepackage{xurl}
 
 \colorlet{LightGray}{White!90!Periwinkle}
 \colorlet{LightOrange}{Orange!15}
@@ -138,9 +139,52 @@ La mayoría de campesinos que abandonan sus hogares es por problemas asociados c
 
 \section{Estado del arte}
 
+El desplazamiento forzado se puede categorizar como un fenómeno migratorio, es decir, en la diferente literatura se aplican modelos de migración pero con modificaciones para este tipo de contextos. Se analizó literatura para el conflicto armado en Áfica, donde la literatura en inglés es mucho más abundante y los casos de estudio son mayores. También, se toman casos de estudio a nivel nacional, detallando los modelos que se utilizan y sobre qué se fundamentan. 
+
+% La tesis \textit{Predicting forced displacement using a generalised and automated agentbased simulation}\cite{suleimenova2020predicting} aplica una simulación basada en agentes para predecir el desplazamiento de personas desplazadas en Burundi, República Centroafricana y Malí. Los migrantes seleccionan el lugar de destino utilizando una función de peso de probabilidad que se calcula con ayuda del \textit{atractivo} que tiene un nuevo lugar para el migrante.
+
+El artículo \textit{An Agent - Based Model to Identify Migration Pathways of Refugees: The Case of Syria}\cite{hebert2017agent} utiliza un modelo determinístico para que la población tome una decisión de irse cuando se supere un nivel de tolerancia a la violencia ejercida por el grupo armado. En el artículo cada individuo de la población afectada tiene un nivel de tolerancia a la violencia que se inicializa aleatoriamente y cuando el nivel de violencia ejercido por el grupo armado supera el nivel de tolerancia del individuo, entonces, este toma la decisión de ser migrante. El modelo utiliza varios condicionales para que el campesino decida a qué lugar geográfico irse como se ve en la figura \ref{fig:fig1}. Solamente se contempla este nivel de tolerancia del campesino inicializado aleatoriamente.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.5\textwidth]{img/Fig1.png}
+  \caption{\label{fig:fig1} Diagrama de flujo para la decisión de a dónde migrar para el campesino.}
+\end{figure}
+
+
+En la tesis de maestría \textit{Teoría de la migración colectiva como explicación al desplazamiento forzado en Colombia}\cite{Gutierrez2012} se propone un modelo de migración en manada aplicada al conflicto armado, es decir, si varios campesinos siguen una trayectoria, un campesino como individuo tiende a seguir esta trayectoria. Se toma en cuenta un parámetro $\omega$ entre 0 y 1 que entre más cercano a 1 el agente no sigue a la mayoría de individuos y entre más cercano a 0 el individuo sigue al grupo. Por otra parte, Pérez \cite{perez2016impacto} utiliza modelos lineales para estimar las cantidades de producción agrícola de los campesinos y cómo estas se ven afectadas al ingresar un grupo armado.
+
+
+
+
+
 \section{Objetivo general}
 
+Simular el cambio del ingreso económico de la producción agrícola por campesinos del municipio de Meta afectados por el conflicto armado. 
+
+
 \section{Metodología}
+
+Se va a emplear una simulación basada en agentes con el ambiente programable orientado a agentes \textit{NetLogo}\cite{wilensky1999netlogo}, esto debido a todas las facilidades que posee el lenguaje para utilizarse en estos contextos de agentes. Se van a tener dos agentes principales; grupo armado y campesino. Utilizando programación orientada a objetos se crean dos clases que son los respectivos agentes. La clase campesino tiene atributos como; \texttt{tolerance\_level}, que se inicializa estocásticamente y es el valor de violencia que puede soportar el campesino; \texttt{total\_money}, cantidad de dinero que posee el campesino; y \texttt{migrant}, este es un atributo booleano que muestra si el campesino es desplazado o no. Por otra parte, se contemplan \textbf{atributos} para la generación de dinero de los campesinos. Se va a asumir que todos los campesinos producen los mismos productos y la misma cantidad de unidades. Es decir, el atributo ingreso en cada instante de tiempo $I(t)$ va a ser asignado como:
+
+\[
+I(t) = A(t) + B(t) + \cdots + G(t) + \alpha
+\]
+
+Donde $A(t), B(t), \cdots$ son los métodos del campesino para producir ganancia a través de sus producciones agrícolas, $G(t)<0$ es lo que el grupo armado le quita al campesino, y $\alpha$ es una variable aleatoria que aún falta por profundizar, aunque se está pensando en utilizar series de tiempo, sin embargo, el conocimiento de los autores en este tema aún se está expandiendo, se espera que en el desarrollo del curso se pueda profundizar esta variable $\alpha$.
+
+Por otra parte, la clase \texttt{GrupoArmado} va a tener únicamente el método $G(t)$ encargado de restar las ganancias de los campesinos.
+
+Las fuentes de datos para la producción de productos agrícolas se toma de la Evaluación de Valoración Ambiental del Departamento Nacional de Planeación de Colombia\cite{EVA2020}. La simulación va a ser iterada durante un (1) año ($t = 1, \dots, 365$). Se espera obtener un gráfico de barras que muestre la cantidad de campesinos que tienen ciertos intervalos de ingresos totales, algo similar a una de las gráficas de la simulación \textit{Simple Economy} encontrada en \url{https://netlogoweb.org/launch#https://netlogoweb.org/assets/modelslib/IABM%20Textbook/chapter%202/Simple%20Economy.nlogo} y que la distribución de riqueza se ve tal como se ve en la figura \ref{fig:fig2}. 
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.7\textwidth]{img/Fig2.png}
+  \caption{\label{fig:fig2} Distribución de la riqueza en un modelo económico simple, tomado de \textit{NetLogo Simple Economy model}\cite{wilensky2011simpleeconomy}.}
+\end{figure}
+
+
+No hay manera posible de validar el cambio en la economía de los campesinos, ya que, se vio en la revisión de la literatura que, se afirma sobre que existe un cambio negativo en los ingresos de los campesinos desplazados \cite{perez2016impacto,santacoloma2015importancia,ruiz2011desplazamiento,solano2020determinantes}, mas no cómo se distribuyen los ingresos de esta población. La única manera de validación sería realizar una comparación con el modelo en el tiempo $t = 1$ y $t = 365$, si se observa un descenso en los ingresos, entonces se podría decir que el modelo está en lo correcto, sin embargo, se contemplan más maneras de validar los resultados.
 
 
 \bibliographystyle{ieeetr}

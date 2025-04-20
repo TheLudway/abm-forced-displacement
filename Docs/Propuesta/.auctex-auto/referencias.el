@@ -16,6 +16,9 @@
     "unidadvictimas_ruv_2025"
     "eswiki:165709323"
     "eswiki:165573820"
-    "solano2020determinantes"))
+    "solano2020determinantes"
+    "wilensky1999netlogo"
+    "EVA2020"
+    "wilensky2011simpleeconomy"))
  '(or :bibtex :latex))
 
