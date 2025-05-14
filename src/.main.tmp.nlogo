@@ -10,40 +10,54 @@ campesinos-own [
 
 to setup
   clear-all
-  create-campesinos 10 [
+  create-campesinos 500 [
+    set shape "circle"
+    set color green
+    set size 2
     set tolerance_level random 100 + 1   ; Value between 1 and 100
-    set total_money random 500 + 100     ; Random money between 100 and 600
+    set total_money 50000
     set migrant false                    ; Default: they haven't migrated
-    setxy random-xcor random-ycor        ; Place randomly in the world
+    setxy total_money random-ycor
   ]
-
   reset-ticks
 end
 
 to go
-  ; Example: Money changes randomly over time
-  ask campesinos [
-    set total_money total_money + random 20 - 10  ; Money fluctuates randomly
-  ]
-
-  plot-money  ; Update the graph
+  prod-aguacate
+  plot-money
+  plot-money-distribution
   tick
 end
 
+;; === Aguacate ===
+to prod-aguacate
+  ask campesinos [
+    if not migrant [
+      set total_money total_money + 12032.32
+    ]
+  ]
+end
 
 to plot-money
-  set-current-plot "Total Money of Campesinos"  ; Ensure this matches the Interface plot name
-  plot sum [total_money] of campesinos  ; Plot the total money over time
+  set-current-plot "Total Money of Campesinos"
+  plot sum [total_money] of campesinos
 end
+
+to plot-money-distribution
+  set-current-plot "Money Distribution"
+  clear-plot
+  histogram [total_money] of campesinos
+end
+
 @#$#@#$#@
 GRAPHICS-WINDOW
 210
-10
-647
-448
+15
+637
+443
 -1
 -1
-13.0
+12.7
 1
 10
 1
@@ -131,6 +145,24 @@ NIL
 NIL
 NIL
 1
+
+PLOT
+384
+537
+584
+687
+Money Distribution
+Wealth
+Campesinos
+0.0
+10.0
+0.0
+10.0
+true
+false
+"set-plot-x-range min-pxcor max-pxcor\nset-plot-y-range 0 count turtles\nset-histogram-num-bars 7" "plot-money-distribution\n"
+PENS
+"default" 1.0 0 -16777216 true "" "plot count turtles"
 
 @#$#@#$#@
 ## WHAT IS IT?
