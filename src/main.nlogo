@@ -1,53 +1,152 @@
-; Define the breed
+globals [ nivel_violencia ]  ; Variable global
+
+breed [ grupos-armados grupo-armado ]
+
+grupos-armados-own [
+  poder  ; Representa la intensidad del grupo para subir violencia o quitar dinero
+]
+
 breed [ campesinos campesino ]
 
-; Define only the requested attributes
 campesinos-own [
   tolerance_level  ; Random number between 1 and 100
   total_money      ; Integer number
-  migrant         ; Boolean (true/false)
+  migrant          ; Boolean (true/false)
 ]
 
 to setup
   clear-all
-  create-campesinos 10 [
-    set tolerance_level random 100 + 1   ; Value between 1 and 100
-    set total_money random 500 + 100     ; Random money between 100 and 600
-    set migrant false                    ; Default: they haven't migrated
-    setxy random-xcor random-ycor        ; Place randomly in the world
+  create-campesinos 500 [
+    set shape "circle"
+    set color green
+    set size 0.5
+    set tolerance_level random 100 + 1
+    set total_money 50000
+    set migrant false
   ]
-
+  set nivel_violencia 0
+  create-grupos-armados 5 [
+    set shape "x"
+    set color red
+    set size 2
+    set poder random 20 + 1
+  ]
   reset-ticks
 end
 
 to go
-  prod-aguacate  ; Apply income increase rule
-  plot-money       ; Update the graph
+  prod-aguacate
+  prod-cana-de-azucar
+  prod-citrico
+  prod-maracuya
+  prod-aceite
+  prod-pina
+  prod-platano
+
+  aumentar-violencia
+  extorsionar-campesinos
+
+  update-plots
   tick
 end
 
-;; === Aguacate ===
+;;
+;; ============== Métodos para grupos armados ==============
+;;
+
+to aumentar-violencia
+  ask grupos-armados [
+    set nivel_violencia nivel_violencia + poder
+  ]
+end
+
+
+to extorsionar-campesinos
+  ask grupos-armados [
+    let mi-poder poder
+    let victimas n-of 50 campesinos  ; Only 50 randomly chosen
+    ask victimas [
+      let perdida mi-poder * 1000
+      if total_money > 0 [
+        set total_money total_money - perdida
+        if total_money < 0 [ set total_money 0 ]
+      ]
+    ]
+  ]
+end
+
+;;
+;; ============== Métodos para producir productos agrícolas ==============
+;;
+
 to prod-aguacate
   ask campesinos [
-    if not migrant [  ; Only increase money if they are NOT migrants
+    if not migrant [
       set total_money total_money + 12032.32
     ]
   ]
 end
 
-to plot-money
-  set-current-plot "Total Money of Campesinos"
-  plot sum [total_money] of campesinos
+to prod-cana-de-azucar
+  ask campesinos [
+    if not migrant [
+      set total_money total_money + 8432.50
+    ]
+  ]
+end
+
+to prod-citrico
+  ask campesinos [
+    if not migrant [
+      set total_money total_money + 9531.75
+    ]
+  ]
+end
+
+to prod-maracuya
+  ask campesinos [
+    if not migrant [
+      set total_money total_money + 7890.00
+    ]
+  ]
+end
+
+to prod-aceite
+  ask campesinos [
+    if not migrant [
+      set total_money total_money + 11200.40
+    ]
+  ]
+end
+
+to prod-pina
+  ask campesinos [
+    if not migrant [
+      set total_money total_money + 6785.20
+    ]
+  ]
+end
+
+to prod-platano
+  ask campesinos [
+    if not migrant [
+      set total_money total_money + 8021.15
+    ]
+  ]
+end
+
+to-report total-money
+  report sum [ total_money ] of min-n-of (count campesinos * 0.50) campesinos [ total_money ]
 end
 @#$#@#$#@
 GRAPHICS-WINDOW
-210
-10
-647
-448
+137
+18
+835
+717
 -1
 -1
-13.0
+20.91
 1
 10
 1
@@ -66,24 +165,6 @@ GRAPHICS-WINDOW
 1
 ticks
 30.0
-
-PLOT
-746
-86
-1532
-605
-Total Money of Campesinos
-Time
-Total Money
-0.0
-10.0
-0.0
-10.0
-true
-false
-"" ""
-PENS
-"default" 1.0 0 -16777216 true "" "plot count turtles"
 
 BUTTON
 51
@@ -135,6 +216,35 @@ NIL
 NIL
 NIL
 1
+
+PLOT
+926
+139
+1717
+576
+Distribución de riqueza
+Riqueza
+Campesinos
+49990.0
+50010.0
+0.0
+550.0
+true
+true
+"" ""
+PENS
+"pen-0" 5.0 1 -5298144 true "" "histogram [ total_money ] of campesinos\nset-plot-x-range 49990 50010"
+
+MONITOR
+906
+54
+1123
+99
+Dinero total
+total-money
+17
+1
+11
 
 @#$#@#$#@
 ## WHAT IS IT?
