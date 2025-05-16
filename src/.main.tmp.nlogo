@@ -260,7 +260,7 @@ Distribución de riqueza
 Riqueza
 Campesinos
 0.0
-2.0E7
+4.0E7
 0.0
 80.0
 false
