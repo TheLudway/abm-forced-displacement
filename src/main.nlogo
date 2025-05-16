@@ -260,14 +260,14 @@ Distribución de riqueza
 Riqueza
 Campesinos
 0.0
-2.0E7
+4.0E7
 0.0
 80.0
 false
 true
 "" ""
 PENS
-"pen-0" 255000.0 1 -5298144 true "" "histogram [ total_money ] of campesinos\n"
+"pen-0" 355000.0 1 -5298144 true "" "histogram [ total_money ] of campesinos\n"
 
 MONITOR
 923
