@@ -17,18 +17,12 @@ campesinos-own [
 to setup
   clear-all
   create-campesinos 1200 [
-    set shape "circle"
-    set color green
-    set size 0.5
     set tolerance_level random 100 + 1
     set total_money 50000
     set migrant false
   ]
   set nivel_violencia 0
   create-grupos-armados 5 [
-    set shape "x"
-    set color red
-    set size 2
     set poder random 1 + 1
   ]
   reset-ticks
@@ -42,6 +36,8 @@ to go
   prod-aceite
   prod-pina
   prod-platano
+  extra-ingresos
+  reducir-ingresos
 
   aumentar-violencia
   extorsionar-campesinos
@@ -77,9 +73,9 @@ end
 to extorsionar-campesinos
   ask grupos-armados [
     let mi-poder poder
-    let victimas n-of 50 campesinos  ; Only 50 randomly chosen
+    let victimas n-of 100 campesinos  ; Only 50 randomly chosen
     ask victimas [
-      let perdida mi-poder * 1000
+      let perdida mi-poder * 10000
       if (total_money > 0) and (not migrant) [
         set total_money total_money - perdida
         if total_money < 0 [ set total_money 0 ]
@@ -148,10 +144,6 @@ to prod-platano
   ]
 end
 
-to-report total-money
-  report sum [ total_money ] of min-n-of (count campesinos * 1) campesinos [ total_money ]
-end
-
 to evaluar-migracion
   ask campesinos [
     if not migrant [
@@ -166,17 +158,28 @@ end
 
 to extra-ingresos
   ask campesinos [
-    let ingreso-extra pareto-random 0.5 100000  ; alpha = 1.5, xm = 1000
+    let ingreso-extra pareto-random 1.2 10000  ; alpha = 1.5, xm = 1000
     set total_money total_money + ingreso-extra
   ]
 end
 
+to reducir-ingresos
+  ask campesinos [
+    let perdida pareto-random 1.2 10000  ; alpha = 1.2, xm = 1000
+    set total_money total_money - perdida
+    if total_money < 0 [ set total_money 0 ]
+  ]
+end
+
+to-report numero-de-migrantes
+  report count campesinos with [ migrant ]
+end
 @#$#@#$#@
 GRAPHICS-WINDOW
-137
-18
-835
-717
+540
+412
+568
+441
 -1
 -1
 20.91
@@ -189,10 +192,10 @@ GRAPHICS-WINDOW
 1
 1
 1
--16
-16
--16
-16
+0
+0
+0
+0
 1
 1
 1
@@ -251,22 +254,33 @@ NIL
 1
 
 PLOT
-926
-139
-1717
-576
+259
+165
+1050
+602
 Distribución de riqueza
 Riqueza
 Campesinos
 0.0
 4.0E7
 0.0
-80.0
+200.0
 false
 true
 "" ""
 PENS
-"pen-0" 355000.0 1 -5298144 true "" "histogram [ total_money ] of campesinos\n"
+"pen-0" 555000.0 1 -5298144 true "" "histogram [ total_money ] of campesinos\n"
+
+MONITOR
+1166
+229
+1312
+274
+Número de migrantes
+numero-de-migrantes
+17
+1
+11
 
 @#$#@#$#@
 ## WHAT IS IT?
