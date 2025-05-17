@@ -17,18 +17,12 @@ campesinos-own [
 to setup
   clear-all
   create-campesinos 1200 [
-    set shape "circle"
-    set color green
-    set size 0.5
     set tolerance_level random 100 + 1
     set total_money 50000
     set migrant false
   ]
   set nivel_violencia 0
   create-grupos-armados 5 [
-    set shape "x"
-    set color red
-    set size 2
     set poder random 1 + 1
   ]
   reset-ticks
@@ -176,12 +170,13 @@ to reducir-ingresos
     if total_money < 0 [ set total_money 0 ]
   ]
 end
+
 @#$#@#$#@
 GRAPHICS-WINDOW
-137
-18
-835
-717
+540
+412
+568
+441
 -1
 -1
 20.91
@@ -194,10 +189,10 @@ GRAPHICS-WINDOW
 1
 1
 1
--16
-16
--16
-16
+0
+0
+0
+0
 1
 1
 1
@@ -256,10 +251,10 @@ NIL
 1
 
 PLOT
-926
-139
-1717
-576
+259
+165
+1050
+602
 Distribución de riqueza
 Riqueza
 Campesinos
@@ -272,6 +267,17 @@ true
 "" ""
 PENS
 "pen-0" 555000.0 1 -5298144 true "" "histogram [ total_money ] of campesinos\n"
+
+MONITOR
+1166
+229
+1312
+274
+Número de migrantes
+count campesinos with [ migrant ]
+17
+1
+11
 
 @#$#@#$#@
 ## WHAT IS IT?
