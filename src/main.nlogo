@@ -171,7 +171,6 @@ to extra-ingresos
   ]
 end
 
-
 @#$#@#$#@
 GRAPHICS-WINDOW
 137
@@ -268,17 +267,6 @@ true
 "" ""
 PENS
 "pen-0" 355000.0 1 -5298144 true "" "histogram [ total_money ] of campesinos\n"
-
-MONITOR
-923
-29
-1233
-110
-Dinero total
-total-money
-17
-1
-20
 
 @#$#@#$#@
 ## WHAT IS IT?

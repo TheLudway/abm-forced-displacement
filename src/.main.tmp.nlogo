@@ -42,6 +42,8 @@ to go
   prod-aceite
   prod-pina
   prod-platano
+  extra-ingresos
+  reducir-ingresos
 
   aumentar-violencia
   extorsionar-campesinos
@@ -77,7 +79,7 @@ end
 to extorsionar-campesinos
   ask grupos-armados [
     let mi-poder poder
-    let victimas n-of 50 campesinos  ; Only 50 randomly chosen
+    let victimas n-of 100 campesinos  ; Only 50 randomly chosen
     ask victimas [
       let perdida mi-poder * 1000
       if (total_money > 0) and (not migrant) [
@@ -148,10 +150,6 @@ to prod-platano
   ]
 end
 
-to-report total-money
-  report sum [ total_money ] of min-n-of (count campesinos * 1) campesinos [ total_money ]
-end
-
 to evaluar-migracion
   ask campesinos [
     if not migrant [
@@ -166,12 +164,18 @@ end
 
 to extra-ingresos
   ask campesinos [
-    let ingreso-extra pareto-random 0.5 100000  ; alpha = 1.5, xm = 1000
+    let ingreso-extra pareto-random 1.2 10000  ; alpha = 1.5, xm = 1000
     set total_money total_money + ingreso-extra
   ]
 end
 
-
+to reducir-ingresos
+  ask campesinos [
+    let perdida pareto-random 1.2 10000  ; alpha = 1.2, xm = 1000
+    set total_money total_money - perdida
+    if total_money < 0 [ set total_money 0 ]
+  ]
+end
 @#$#@#$#@
 GRAPHICS-WINDOW
 137
@@ -262,23 +266,12 @@ Campesinos
 0.0
 4.0E7
 0.0
-80.0
+200.0
 false
 true
 "" ""
 PENS
-"pen-0" 255000.0 1 -5298144 true "" "histogram [ total_money ] of campesinos\n"
-
-MONITOR
-923
-29
-1233
-110
-Dinero total
-total-money
-17
-1
-20
+"pen-0" 555000.0 1 -5298144 true "" "histogram [ total_money ] of campesinos\n"
 
 @#$#@#$#@
 ## WHAT IS IT?

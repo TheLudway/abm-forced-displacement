@@ -17,6 +17,7 @@
     "groen_fabsim3_2023"
     "Visualflee"
     "eswiki:166396423"
-    "farodiroma_choco_2025"))
+    "farodiroma_choco_2025"
+    "Leal2022Desplazamiento"))
  '(or :bibtex :latex))
 
