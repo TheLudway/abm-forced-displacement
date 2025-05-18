@@ -22,7 +22,7 @@ to setup
     set migrant false
   ]
   set nivel_violencia 0
-  create-grupos-armados 5 [
+  create-grupos-armados 10 [
     set poder random 1 + 1
   ]
   reset-ticks
@@ -262,9 +262,9 @@ Distribución de riqueza
 Riqueza
 Campesinos
 0.0
-4.0E7
+1.0E8
 0.0
-200.0
+500.0
 false
 true
 "" ""

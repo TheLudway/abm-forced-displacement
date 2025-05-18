@@ -22,7 +22,7 @@ to setup
     set migrant false
   ]
   set nivel_violencia 0
-  create-grupos-armados 5 [
+  create-grupos-armados  [
     set poder random 1 + 1
   ]
   reset-ticks
@@ -75,7 +75,7 @@ to extorsionar-campesinos
     let mi-poder poder
     let victimas n-of 100 campesinos  ; Only 50 randomly chosen
     ask victimas [
-      let perdida mi-poder * 1000
+      let perdida mi-poder * 10000
       if (total_money > 0) and (not migrant) [
         set total_money total_money - perdida
         if total_money < 0 [ set total_money 0 ]
@@ -171,6 +171,9 @@ to reducir-ingresos
   ]
 end
 
+to-report numero-de-migrantes
+  report count campesinos with [ migrant ]
+end
 @#$#@#$#@
 GRAPHICS-WINDOW
 540
@@ -259,9 +262,9 @@ Distribución de riqueza
 Riqueza
 Campesinos
 0.0
-4.0E7
+1.0E8
 0.0
-200.0
+500.0
 false
 true
 "" ""
@@ -274,7 +277,7 @@ MONITOR
 1312
 274
 Número de migrantes
-count campesinos with [ migrant ]
+numero-de-migrantes
 17
 1
 11
