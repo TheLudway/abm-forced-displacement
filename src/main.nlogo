@@ -91,7 +91,7 @@ end
 to prod-aguacate
   ask campesinos [
     if not migrant [
-      set total_money total_money + (12032.32 * pareto-random 1 1 )
+      set total_money total_money + (12032.32 * pareto-random 1 1 ) #
     ]
   ]
 end
@@ -158,14 +158,14 @@ end
 
 to extra-ingresos
   ask campesinos [
-    let ingreso-extra pareto-random 1.2 10000  ; alpha = 1.5, xm = 1000
+    let ingreso-extra pareto-random 1.2 10000  ; alpha = 1.2, xm = 10000
     set total_money total_money + ingreso-extra
   ]
 end
 
 to reducir-ingresos
   ask campesinos [
-    let perdida pareto-random 1.2 10000  ; alpha = 1.2, xm = 1000
+    let perdida pareto-random 1.2 10000  ; alpha = 1.2, xm = 10000
     set total_money total_money - perdida
     if total_money < 0 [ set total_money 0 ]
   ]
